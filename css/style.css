@@ -1,6 +1,4 @@
 
-
-
 body {
     width: 70%;
     height: 100vh;
@@ -9,8 +7,6 @@ body {
     gap: 20px;
     font-family: 'IBM Plex Serif', serif;
 }
-
-
 
 #h {
     
@@ -24,12 +20,8 @@ body {
 #title {
     display: flex;
  display: inline-block;
-
+ margin-left: 20px;
 }
-
-/* #choco-img {
-    width: 100%;
-} */
 
 nav {
     float:right;
@@ -96,46 +88,36 @@ form {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: 'Montserrat Alternates', sans-serif;
     
-
 }
 
 #firstgroup {
     display: block;
-    margin: 50px;
-    
+    margin: 45px;  
 }
 
 #secondgroup {
     display: block;
-    margin: 50px
-    
-
+    margin: 45px;
 }
 #ch:checked + label {
     
     text-decoration: line-through;
+     color:black 
+
   }
 
 #paragraphs {
     text-indent: 30px;
-
+    
 }
-
-
-
-
-
-
-
-
 
 
 hr {
     margin-bottom: 50px;
     height: 20px;
-    background: url('../images/hr-img.png');
-   
+    background-image: url('../images/hr-img.png');
     width: 100%;
 }
 
@@ -155,10 +137,7 @@ h1 {
     font-size: large;
 }
 
-#text p {
-    margin: 20px 0;
-    
-}
+
 
 #endofmain {
     display: flex;
@@ -166,7 +145,7 @@ h1 {
     width: 100%;
 }
 
-#beffoot div {
+#endofmain {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -175,14 +154,14 @@ h1 {
     width: 100%;
 }
 
-#beffoot p {
+#endofmain p {
     color: gray;
     margin-left: 10px;
     width: 90%;
 }
 
 
-#beffoot button {
+#endofmain button {
     color: white;
     background-color: #C26C54;
     width: 150px;
@@ -198,8 +177,6 @@ footer{
     display: grid;
     place-items: center;
 }
-
-
 
 
 .smalll-logo {
@@ -233,51 +210,3 @@ footer{
       transform: scale(2);
   }
 
-  anas
-
-
-
-
-  /* body{
-
-    display: grid;
-    grid-template-rows:100px 1fr 50px;
-    gap: 10px;
-    width:1040px;
-    margin: auto;
-} */
-
-
-
-
-
-
-/* header h1{
-
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: capitalize;
-    display:inline-block;
-}
-header p{
-    font-family: 'Nunito', sans-serif;
-    text-transform:uppercase;
-    font-size: 10px;
-    color: gray;
-    margin-left: 40px;
-}
-
-header nav{
-    float: right;
-    padding-left: 10px;
-}
-
-main h1{
-
-   
-    text-transform: capitalize;
-}
-#mainimage{
-    width: 100%;
-} */
